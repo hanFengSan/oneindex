@@ -1,9 +1,6 @@
 # oneindex
 OneDrive Directory Index
 
-## 个人整合：
-修改主题排版美化。
-
 ## 功能：
 不用服务器空间，不走服务器流量，  
 
@@ -19,6 +16,9 @@ bash /etc/init.d/fcgiwrap-php restart
 ```
 ## 预览地址
 [Toolslnk储存库](https://one.toolslnk.com)
+
+## 个人整合：
+修改主题排版美化。
 
 ## 创意整合 @0oVicero0（https://github.com/0oVicero0/oneindex）
 2.一些样式美化修改。         
