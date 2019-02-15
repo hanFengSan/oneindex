@@ -29,7 +29,7 @@ function file_ico($item){
 	
 <div class="mdui-container-fluid">
 <?php if($head):?>
-<div class="mdui-typo" style="padding: 20px;">
+<div class="mdui-typo">
 	<?php e($head);?>
 </div>
 <?php endif;?>
@@ -139,11 +139,8 @@ function file_ico($item){
 </div>
 </div>
 <?php if($readme):?>
-<div class="mdui-typo mdui-shadow-3" style="padding: 20px;margin: 20px; 0">
-	<div class="mdui-chip">
-	  <span class="mdui-chip-icon"><i class="mdui-icon material-icons">face</i></span>
-	  <span class="mdui-chip-title">README.md</span>
-	</div>
+<div class="nexmoe-item">
+<div class="mdui-typo">
 	<?php e($readme);?>
 </div>
 <?php endif;?>
