@@ -1,15 +1,14 @@
 # oneindex
 OneDrive Directory Index
 
+## 个人整合：
+修改主题排版美化。
+
 ## 功能：
 不用服务器空间，不走服务器流量，  
 
 直接列onedrive目录，文件直链下载。  
 
-## 一键安装（Debian 8）：
-```
-wget --no-check-certificate -qO- https://github.com/0oVicero0/oneindex/raw/master/install.sh |bash
-```
 ## 添加 Redis 支持（Debian 8）：
 ```
 # 安装 redis 支持
@@ -19,10 +18,9 @@ bash /etc/init.d/fcgiwrap-php restart
 # 后台选择 redis 模式, 并更新缓存.
 ```
 ## 预览地址
-[萌咖 存储仓库](https://moeclub.org/onedrive/)
+[Toolslnk储存库](https://one.toolslnk.com)
 
-## 创意整合
-1.极大简化安装步骤。           
+## 创意整合 @0oVicero0（https://github.com/0oVicero0/oneindex）
 2.一些样式美化修改。         
 3.分页模式，加快页面预览速度。创意来自[oneindex-h](https://github.com/hang666/oneindex-h)    
 4.可后台自定义网站主标题,副标题。         
