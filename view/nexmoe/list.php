@@ -121,7 +121,6 @@ function file_ico($item){
 		<?php endforeach;?>
 
 		  <?php if($totalpage > 1 ):?>
-		  <li class="mdui-list-item th">
 		    <div class="mdui-col-sm-6 mdui-left mdui-text-left">
 		      <?php if(($page-1) >= 1 ):?>
 		        <a href="<?php echo preg_replace('/\/$/', '', "$root"); ?><?php e($path) ?>.page-<?php e($page-1) ?>/" class="mdui-btn mdui-btn-raised">上一页</a>
@@ -133,7 +132,6 @@ function file_ico($item){
 		    <div class="mdui-col-sm-6 mdui-right mdui-text-right">
 		      <div class="mdui-right mdui-text-right"><span class="mdui-chip-title">Page: <?php e($page);?>/<?php e($totalpage);?></span></div>
 		    </div>
-		  </li>
 		  <?php endif;?>
 	</ul>
 </div>
