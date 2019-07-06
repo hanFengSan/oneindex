@@ -159,8 +159,7 @@ class AdminController{
 		if($_SERVER['HTTP_HOST'] == 'localhost'){
 			$redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
 		}else{
- 			// 调用 https://moeclub.org/onedrive-login 中转
- 			$redirect_uri = 'https://moeclub.org/onedrive-login';
+ 			$redirect_uri = 'https://oneindex.github.io/';
 		}
 		
  		$oauth_url = 'https://login.microsoftonline.com/common/oauth2/authorize';
