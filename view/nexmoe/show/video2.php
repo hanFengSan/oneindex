@@ -22,7 +22,7 @@ $mpd =  str_replace("thumbnail","videomanifest",$item['thumb'])."&part=index&for
 	    <option value="<?php e($url);?>" selected>下载地址</option>
 	    <option value="<video><source src='<?php e($url);?>' type='video/mp4'></video>">引用地址</option>
 	  </select>
-    <a href="javascript:window.copyToClipboard('<?php e($url);?>')" style="text-decoration: none;color: white;background: #1e89f2;padding: 6px 8px;border-radius: 2px;position: relative;top: 3px;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);left: 20px;">复制链接</a>
+    <a href="javascript:window.copyToClipboard('<?php e($url);?>'); alert('复制成功')" style="text-decoration: none;color: white;background: #1e89f2;padding: 6px 8px;border-radius: 2px;position: relative;top: 3px;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);left: 20px;">复制链接</a>
 	  <textarea class="mdui-textfield-input" id="val" readonly><?php e($url);?></textarea>
 	</div>
 	<script type="text/javascript">
