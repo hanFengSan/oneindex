@@ -15,6 +15,7 @@ $item['thumb'] = onedrive::thumbnail($item['path']);
 	    <option value="<?php e($url);?>" selected>下载地址</option>
 	    <option value="<video><source src='<?php e($url);?>' type='video/mp4'></video>">引用地址</option>
 	  </select>
+    <a href="javascript:copyToClipboard('<?php e($url);?>')">复制链接</a>
 	  <textarea class="mdui-textfield-input" id="val" readonly><?php e($url);?></textarea>
 	</div>
 	<script type="text/javascript">
