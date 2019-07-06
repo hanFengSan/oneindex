@@ -10,6 +10,7 @@
 	</style>
 	<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
   <script>
+    window.test = "123";
   window.copyToClipboard = (function initClipboardText() {
     var textarea = document.createElement('textarea');
     textarea.style.cssText = 'position: absolute; left: -99999em';
